@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forme\FormAviokompanija.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FormAvion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FormKarta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FormLet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FormPilot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FormPutnik.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FormStjuardesa.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\FormTipKarte.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Forme\FormAviokompanija.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FormAvion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FormKarta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FormLet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FormPilot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FormPutnik.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FormStjuardesa.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\FormTipKarte.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

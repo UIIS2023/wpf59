@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPFAerodrom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAerodrom"
+        mc:Ignorable="d"
+        Title="Aerodrom" Height="600" Width="1100">
+    <Grid Background="CadetBlue">
+        <DataGrid Name="dataGridCentralni" HorizontalAlignment="Center" VerticalAlignment="Center" Height="auto" Width="auto" IsReadOnly="True"
+          AlternatingRowBackground="Beige" CanUserAddRows="False" SelectionUnit="FullRow" SelectionMode="Single"/>
+        <StackPanel x:Name="stackPanelTop" HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto" Orientation="Horizontal" Height="40">
+            <Button x:Name="btnPutnik" Content="Putnici" Width="100" Click="btnPutnik_Click"/>
+            <Button x:Name="btnPilot" Content="Piloti" Width="100" Click="btnPilot_Click"/>
+            <Button x:Name="btnAvion" Content="Avioni" Width="100" Click="btnAvion_Click"/>
+            <Button x:Name="btnStjuardesa" Content="Stjuardese" Width="100" Click="btnStjuardesa_Click"/>
+            <Button x:Name="btnKarta" Content="Karte" Width="100" Click="btnKarta_Click"/>
+            <Button x:Name="btnTipKarte" Content="Tipovi karte" Width="100" Click="btnTipKarte_Click"/>
+            <Button x:Name="btnAviokompanija" Content="Aviokompanije" Width="100" Click="btnAviokompanija_Click"/>
+            <Button x:Name="btnLet" Content="Letovi" Width="100" Click="btnLet_Click"/>
+        </StackPanel>
+
+        <StackPanel x:Name="stackPanelBottom" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="auto" Orientation="Horizontal" Height="40" >
+            <Button x:Name="btnDodaj" Content="Dodaj" Width="250" Click="btnDodaj_Click"/>
+            <Button x:Name="btnIzmeni" Content="Izmeni" Width="250" Click="btnIzmeni_Click"/>
+            <Button x:Name="btnObrisi" Content="Obriši" Width="250" Click="btnObrisi_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
